@@ -35,6 +35,7 @@ const SearchComp = ({ font, theme }) => {
             onFocus={() => setFocus(true)}
             onBlur={() => setFocus(false)}
             onChange={(e) => setWord(e.target.value)}
+            required
             />
           <button type="submit">
             <FontAwesomeIcon icon={faSearch} style={{ color: "#852aa8" }} />
